@@ -1,8 +1,9 @@
 {
-  "autoUploadInsertedImage" : true,
+  "autoUploadInsertedImageKey" : "mymweb-https:\/\/up.qbox.me",
   "fileExtension" : ".md",
-  "newlinesToBR" : 0,
-  "mediaFloder" : "media",
+  "autoUploadInsertedImage" : true,
   "folderType" : 10,
-  "orderBy" : 0
+  "mediaFloder" : "media",
+  "orderBy" : 0,
+  "newlinesToBR" : 0
 }
