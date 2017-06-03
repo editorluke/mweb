@@ -20,6 +20,20 @@
    所以两者的结果是一一样的.
    
         ```
+     
+### 0603
+1. Map对象
+    * let m = new Map([ ["a", 1], ["b", 2] ])
+    * m.get('a') // 1
+    * m.set('c', 3)
+    * m.has('a') // true
+    * m.delete('b')
+    * 重复对一个key写入value，会覆盖
+2. Set对象 
+    * let s = new Set([1, 2, 3, '3']) // Set {1, 2, 3, '3'}
+    * s.add(4)
+    * s.detele(4)   
+   
         
         
 
