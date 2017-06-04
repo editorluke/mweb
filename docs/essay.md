@@ -32,7 +32,10 @@
 2. Set对象 
     * let s = new Set([1, 2, 3, '3']) // Set {1, 2, 3, '3'}
     * s.add(4)
-    * s.detele(4)   
+    * s.detele(4)
+3. Array, Map, Set都属于iterable类型
+    * 都可使用 for (let x of a)遍历
+    * 都可使用forEach   
    
         
         
