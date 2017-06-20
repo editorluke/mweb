@@ -36,6 +36,11 @@
 3. Array, Map, Set都属于iterable类型
     * 都可使用 for (let x of a)遍历
     * 都可使用forEach   
+
+### 0620
+
+
+
    
         
         
