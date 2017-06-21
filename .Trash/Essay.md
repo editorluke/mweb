@@ -1,0 +1,55 @@
+
+### 0601
+
+17059856201
+
+### 0602
+
+* [x] constructor
+    * 父类的构造函数
+
+   ```
+   function a(c){
+       this.b = c;
+       this.d =function(){
+           alert(this.b);
+       }
+   }
+   var obj  = new a('test');
+   alert(obj.constructor);//function a(){}
+   alert(a.prototype.constructor);//function a(){}
+   
+   obj是没有constructor 这个属性的，但是 obj.__proto__ = a.prototype;
+   就从a.prototype中寻找，而 a.prototype.constructor 是就a。
+   所以两者的结果是一一样的.
+   
+        ```
+     
+### 0603
+1. Map对象
+    * let m = new Map([ ["a", 1], ["b", 2] ])
+    * m.get('a') // 1
+    * m.set('c', 3)
+    * m.has('a') // true
+    * m.delete('b')
+    * 重复对一个key写入value，会覆盖
+2. Set对象 
+    * let s = new Set([1, 2, 3, '3']) // Set {1, 2, 3, '3'}
+    * s.add(4)
+    * s.detele(4)
+3. Array, Map, Set都属于iterable类型
+    * 都可使用 for (let x of a)遍历
+    * 都可使用forEach   
+
+### 0620
+
+
+
+   
+        
+        
+
+
+
+
+
